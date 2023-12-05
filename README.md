@@ -18,3 +18,9 @@ The `RLAgent` class is the core component responsible for training and guiding t
    ```python
    from RLAgent import RLAgent
    agent = RLAgent(input_size, output_size, max_tree_size)
+   
+2. **Instantiate Environment:**
+   ```python
+   from BSTEnvironment import BSTEnvironment  #Provide different environment for different test input generation.
+   env = BSTEnvironment(max_tree_size)
+
